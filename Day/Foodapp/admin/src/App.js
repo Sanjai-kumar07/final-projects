@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
 
-  const url = "http://localhost:8000"
+  const url = "https://final-projects-idqp.onrender.com"
 
   return (
     <div>
