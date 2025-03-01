@@ -20,4 +20,4 @@ export const assets ={
    
 }
 
-export const url = 'http://localhost:8000'
+export const url = "https://final-projects-idqp.onrender.com"
