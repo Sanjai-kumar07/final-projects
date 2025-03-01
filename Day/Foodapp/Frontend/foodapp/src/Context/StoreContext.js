@@ -7,7 +7,7 @@ export const StoreContext = createContext(null)
 const StoreContextProvider = (props)=>{
 
     const [cartItems, setCartItems] = useState({});
-    const url = "http://localhost:8000"
+    const url = "https://final-projects-idqp.onrender.com"
     const [token, setToken] = useState("");
     const [food_list,setFoodList] = useState([]);
     const [promoCode, setPromoCode] = useState("");
