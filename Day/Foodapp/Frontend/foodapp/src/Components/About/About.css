@@ -1,0 +1,55 @@
+.aboutus
+{
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+.aboutus-content
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.aboutus-header
+{
+    background: url(../../assets/aboutusbg1.png);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+.aboutus-header-cnt
+{
+    position: absolute;
+    top: 50%;
+    left: 9%;
+    animation: fadeIn 3s;
+}
+.aboutus-header-cnt h2
+{
+    font-size: max(4.5vw,21px);
+    color: whitesmoke;
+    font-weight: 300;
+}
+.aboutus-header-cnt p{
+    color: whitesmoke;
+    font-size: 2vw;
+    margin-top: 10px;
+}
+.aboutus-midsec-para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.aboutus-midsec-para h3
+{
+    font-size: max(3vw,21px);
+    margin-bottom: 20px;
+}
+.aboutus-midsec-para p
+{   
+   font-size: 20px;
+   color: #747474;
+}
